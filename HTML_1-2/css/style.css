@@ -1,0 +1,47 @@
+body{
+	background-color: #E6E6E6;
+}
+h1 {
+	text-align: center;
+}
+.mainbox {
+	margin: auto;
+	width: 420px;
+	background-color: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  padding: 50px 65px;
+}
+.top_box {
+	margin: 0;
+	text-align: center;
+}
+.student {
+	text-align: left;
+}
+.underline{
+	border-bottom: 2px solid grey;
+	margin: auto;
+
+	}    	
+.middle_block{
+	font-size: 18px;
+	margin: auto;
+	padding-left: 10%;
+	padding-right: 10%;
+		}
+
+img {
+	height: 40%; width: 40%
+}
+p, a {
+	padding-left: 10px;
+	margin-bottom: 10px;
+  font-size: 18px;
+}
+ul {
+	padding-left: 30px;
+  font-size: 18px;
+}
+a {
+	color: blue;
+}
