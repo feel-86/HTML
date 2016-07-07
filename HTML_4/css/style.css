@@ -1,18 +1,20 @@
 body {
 	background-image: url(../img/background.jpg);
-	width: 100%;
-}
+	width: 1280px;
+	margin-top: 36px;
+ }
 .mainbox {
 	background-color: #ffffff;
-	width: 1100px;
+	width: 1018px;
+  height: 991px;
 	margin: 0 auto;
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
-.google_head {
+/*.google_head {
 	display: block;
 	width: 100%;
 	margin: 0 auto;
-}
+}*/
 .logo {
 	display: block;
 	float: left;
@@ -40,12 +42,17 @@ body {
 .footer {
 	text-align: center;
 	padding: 10px;
-	color: white;
 	background-color: transparent;
+	height: 12px;
+  opacity: 0.8;
+  color: white;
+  font-family: Tahoma;
+  font-size: 12px;
+  font-weight: 400;
 }
 .photo img {
 	margin-left: -30px;
-	width: 1100px;
+	width: 1018px;
 }
 .menu_bar {
 	background-color: #323232;
@@ -53,6 +60,8 @@ body {
 	margin-right: -30px;
 	font-family: Tahoma;
 	font-size: 14px;
+	width: 1018px;
+ 
 }
 ul.menu_bar {
 	display: block;
@@ -70,9 +79,10 @@ ul:after {
 ul.menu > li {
 	float: left;
 	position: relative;
-	width: 150px;
+	width: 145px;
 	text-align: center;
 	box-shadow: rgba(0,0,0,0.5);
+	border-bottom: 2px solid black;
 }
 ul.menu > li > a {
 	display: block;
@@ -80,16 +90,18 @@ ul.menu > li > a {
 	color: white;
 	background-color: #323232;
 	text-decoration: none;
+	text-align: center;
 }
 ul.submenu {
 	display: none;
 	position: absolute;
 	width: 150px;
-	top: 28px;
+	top: 30px;
 	left: 0;
 	background-color: #323232;
 	border: none;
-	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+	text-align: left;
 }
 ul.submenu > li {
 	display: block;
@@ -111,7 +123,7 @@ ul.menu > li:hover > ul.submenu {
 	font-family: Tahoma;
 	font-size: 14px;
 	margin-right: -300px;
-	width: 1100px; /* ширина трех блоков */
+	width: 1018px; /* ширина трех блоков */
 	background: url(../img/fon.png) repeat-y; /* фоновая картинка. повторяется по вертикали */
 	/*float: left;  чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
 }
@@ -121,13 +133,13 @@ ul.menu > li:hover > ul.submenu {
 	padding-left: 25px;
 }
 .centerColumn {
-	width: 670px;
+	width: 510px;
 	float: left;
 }
 .rightColumn {
 	width: 200px;
 	float: left;
-
+  padding-left: 80px;
 }
 .clearfix:after {
 	content: ".";
@@ -159,8 +171,20 @@ ul.menu > li:hover > ul.submenu {
 	position: relative;
 	color: #128aa7;
 }
+.countries li a:hover {
+	color: red;
+}
 .countries_bar {
 	position: absolute;
 	right: 30px;
 	top: 110px;
+}
+.column > div > a:hover {
+	text-decoration: underline;
+	color: red;
+}
+ul.menu > li > a > img {
+	display: inline-block;
+	margin-left: 5px;
+	vertical-align: middle;
 }
