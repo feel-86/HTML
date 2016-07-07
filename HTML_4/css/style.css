@@ -188,3 +188,6 @@ ul.menu > li > a > img {
 	margin-left: 5px;
 	vertical-align: middle;
 }
+ul.menu > li:hover {
+	text-decoration: underline;
+}
