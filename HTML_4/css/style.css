@@ -1,190 +1,197 @@
 body {
 	background-image: url(../img/background.jpg);
 	width: 1280px;
-	margin-top: 36px;
- }
+}
 .mainbox {
 	background-color: #ffffff;
-	width: 1018px;
-  height: 991px;
+	width: 1000px;
+	height: 991px;
 	margin: 0 auto;
-	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 0 0px 15px rgba(0, 0, 0, 0.9);
 }
 /*.google_head {
 	display: block;
 	width: 100%;
 	margin: 0 auto;
-}*/
-.logo {
-	display: block;
-	float: left;
-}
-.contacts {
-	display: block;
-	float: right;
-	font-family: Tahoma;
-	font-size: 12px;
-	color: #128aa7;
-}
-.column div a {
-	display: block;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	text-decoration: none;
-	color: black;
-}
-.header {
-	padding-top: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-	position: relative;
-}
-.footer {
-	text-align: center;
-	padding: 10px;
-	background-color: transparent;
-	height: 12px;
-  opacity: 0.8;
-  color: white;
-  font-family: Tahoma;
-  font-size: 12px;
-  font-weight: 400;
-}
-.photo img {
-	margin-left: -30px;
-	width: 1018px;
-}
-.menu_bar {
-	background-color: #323232;
-	margin-left: -30px;
-	margin-right: -30px;
-	font-family: Tahoma;
-	font-size: 14px;
-	width: 1018px;
- 
-}
-ul.menu_bar {
-	display: block;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	box-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-ul:after {
-	display: block;
-	content: ' ';
-	clear: both;
-	float: none;
-}
-ul.menu > li {
-	float: left;
-	position: relative;
-	width: 145px;
-	text-align: center;
-	box-shadow: rgba(0,0,0,0.5);
-	border-bottom: 2px solid black;
-}
-ul.menu > li > a {
-	display: block;
-	padding: 7px;
-	color: white;
-	background-color: #323232;
-	text-decoration: none;
-	text-align: center;
-}
-ul.submenu {
-	display: none;
-	position: absolute;
-	width: 150px;
-	top: 30px;
-	left: 0;
-	background-color: #323232;
-	border: none;
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
-	text-align: left;
-}
-ul.submenu > li {
-	display: block;
-}
-ul.submenu > li > a {
-	display: block;
-	padding: 10px;
-	color: white;
-	background-color: #323232;
-	text-decoration: none;
-}
-ul.submenu > li > a:hover {
-	text-decoration: underline;
-}
-ul.menu > li:hover > ul.submenu {
-	display: block;
-}
-.fon {
-	font-family: Tahoma;
-	font-size: 14px;
-	margin-right: -300px;
-	width: 1018px; /* ширина трех блоков */
-	background: url(../img/fon.png) repeat-y; /* фоновая картинка. повторяется по вертикали */
-	/*float: left;  чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
-}
-.leftColumn {
-	width: 200px;
-	float: left;
-	padding-left: 25px;
-}
-.centerColumn {
-	width: 510px;
-	float: left;
-}
-.rightColumn {
-	width: 200px;
-	float: left;
-  padding-left: 80px;
-}
-.clearfix:after {
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
-}
-.column h1 {
-	font-size: 20px;
-	text-align: center;
-	margin-bottom: 10px;
-	margin-top: 10px;
-}
-.contacts h2 {
-	font-size: 14px;
-	margin-bottom: 7px;
-}
-.contacts div {
-	margin-bottom: 5px;
-}
-.countries li {
-	float: left;
-	width: 60px;
-	list-style: none;
-	font-family: Tahoma;
-	font-size: 11px;
-	text-align: center;
-	position: relative;
-	color: #128aa7;
-}
-.countries li a:hover {
-	color: red;
-}
-.countries_bar {
-	position: absolute;
-	right: 30px;
-	top: 110px;
-}
-.column > div > a:hover {
-	text-decoration: underline;
-	color: red;
-}
-ul.menu > li > a > img {
-	display: inline-block;
-	margin-left: 5px;
-	vertical-align: middle;
-}
+	}*/
+	.logo {
+		display: block;
+		float: left;
+	}
+	.contacts {
+		display: block;
+		float: right;
+		font-family: Tahoma;
+		font-size: 12px;
+		color: #128aa7;
+	}
+	.column div a {
+		display: block;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		text-decoration: none;
+		color: black;
+	}
+	.header {
+		padding-top: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+		position: relative;
+	}
+	.footer {
+		display: inline-block;
+		text-align: center;
+		vertical-align: middle;
+		background-color: transparent;
+		width: 100%;
+		color: white;
+		font-family: Tahoma;
+		font-size: 12px;
+		font-weight: 400;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.photo img {
+		margin-left: -30px;
+		width: 1000px;
+		border-bottom: 2px solid #138aa7;
+		border-top: 2px solid #138aa7;
+		margin-bottom: -3px;
+	}
+	.menu_bar {
+		background-color: #323232;
+		margin-left: -30px;
+		margin-right: -30px;
+		font-family: Tahoma;
+		font-size: 14px;
+		width: 1000px;
+		border-bottom: 2px solid black;
+		box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+	}
+	ul.menu_bar {
+		display: block;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+	}
+	ul:after {
+		display: block;
+		content: ' ';
+		clear: both;
+		float: none;
+	}
+	ul.menu > li {
+		float: left;
+		position: relative;
+		width: 140px;
+		text-align: center;
+		box-shadow: rgba(0,0,0,0.5);
+		/*border-bottom: 2px solid black;*/
+	}
+	ul.menu > li > a {
+		display: block;
+		padding: 7px;
+		color: white;
+		background-color: #323232;
+		text-decoration: none;
+		text-align: center;
+	}
+	ul.submenu {
+		display: none;
+		position: absolute;
+		width: 140px;
+		top: 30px;
+		left: 0;
+		background-color: #323232;
+		border: none;
+		box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+		text-align: left;
+	}
+	ul.submenu > li {
+		display: block;
+	}
+	ul.submenu > li > a {
+		display: block;
+		padding: 10px;
+		color: white;
+		background-color: #323232;
+		text-decoration: none;
+	}
+	ul.submenu > li > a:hover {
+		background-color: black;
+	}
+	ul.menu > li:hover > ul.submenu {
+		display: block;
+	}
+	.fon {
+		font-family: Tahoma;
+		font-size: 14px;
+		margin-right: -300px;
+		width: 1000px; /* ширина трех блоков */
+		background: url(../img/fon.png) repeat-y; /* фоновая картинка. повторяется по вертикали */
+		/*float: left;  чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
+	}
+	.leftColumn {
+		width: 190px;
+		float: left;
+		text-align: center;
+		/*padding-left: 25px;*/
+	}
+	.centerColumn {
+		width: 600px;
+		float: left;
+	}
+	.rightColumn {
+		width: 200px;
+		float: left;
+		text-align: center;
+		/*padding-left: 80px;*/
+	}
+	.clearfix:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+	.column h1 {
+		font-size: 20px;
+		text-align: center;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.contacts h2 {
+		font-size: 14px;
+		margin-bottom: 7px;
+	}
+	.contacts div {
+		margin-bottom: 5px;
+	}
+	.countries li {
+		float: left;
+		width: 60px;
+		list-style: none;
+		font-family: Tahoma;
+		font-size: 11px;
+		text-align: center;
+		position: relative;
+		color: #128aa7;
+	}
+	.countries li a:hover {
+		color: red;
+	}
+	.countries_bar {
+		position: absolute;
+		right: 30px;
+		top: 110px;
+	}
+	.column > div > a:hover {
+		text-decoration: underline;
+		color: red;
+	}
+	ul.menu > li > a > img {
+		display: inline-block;
+		margin-left: 5px;
+		vertical-align: middle;
+	}
