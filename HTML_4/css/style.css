@@ -60,11 +60,10 @@ body {
 	font-family: Tahoma;
 	font-size: 14px;
 	width: 1000px;
-	border-bottom: 2px solid black;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
 	z-index: 1;
+	box-sizing: border-box;
 }
-
 ul.menu_bar {
 	display: block;
 	margin: 0;
@@ -72,6 +71,10 @@ ul.menu_bar {
 	list-style: none;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
 }
+.menu{
+	border-bottom: 1px solid black;
+}
+
 ul:after {
 	display: block;
 	content: ' ';
@@ -81,24 +84,29 @@ ul:after {
 ul.menu > li {
 	float: left;
 	position: relative;
-	width: 140px;
+  box-sizing: border-box;
 	text-align: center;
 	box-shadow: rgba(0,0,0,0.5);
-	/*border-bottom: 2px solid black;*/
 }
-ul.menu > li > a {
+.menu > li > a {
+	padding: 8px 50px 8px 10px;
 	display: block;
-	padding: 7px;
 	color: white;
 	background-color: #323232;
 	text-decoration: none;
 	text-align: left;
+	font-family: Tahoma;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.menu>li:first-child {
+	padding-left: 70px;
 }
 ul.submenu {
 	display: none;
 	position: absolute;
 	width: 140px;
-	top: 100%;
+	top: 31px;
 	left: 0;
 	background-color: #323232;
 	border: none;
