@@ -10,11 +10,12 @@ body{
 	padding:  0 45px;
 	padding-top: 50px;
 	box-sizing: border-box;
+	position: relative;
 }
 header {
-	font-family: OpenSans;
-	font-size: 14,67px;
-	color: #ffffff;
+	/*font-family: OpenSans;
+	font-size: 15px;
+	color: #ffffff;*/
 	height: 40px;
 	width: 965px;
 }
@@ -35,16 +36,16 @@ header {
 }
 .menu li a {
 	text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
-  color: white;
-  font-family: OpenSans;
-  font-size: 15px;
-  text-decoration: none;
-}
-.main {
+	color: white;
 	font-family: OpenSans;
-	color: #656363;
-	font-size: 13.33px;
-	float: right;
+	font-size: 15px;
+	text-decoration: none;
+}
+main {
+	display: block;
+	float: left;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .text {
 	color: #2c2c2c;
@@ -53,8 +54,52 @@ header {
 	font-weight: 400;
 	line-height: 21px;
 }
-.footer {
-	margin: 40px;
+.aside li a {
+	color: white;
+	font-family: OpenSans;
+	font-size: 13px;
+	text-decoration: none;
+}
+.section {
+	
+}
+/*.text {
+	text-align: left;
+	width: 620px;
+	margin-left: 330px;
+	margin-top: 30px;
+	}*/
+	.bicycle {
+		width: 680px;
+		height: 400px;
+		background: url(../img/bicycle.png) no-repeat center center;
+		border: 1px solid #c8c8c8;
+	}
+	.bicycle img {
+		display: block;
+		margin: o auto;
+	}
+/*.bicycle img {
+	padding: 50px;
+	width: 555px;
+	}*/
+	.aside_menu li {
+		display: block;
+		float: left;
+		width: 240px;
+		height: 40px;
+		border: 1px solid #c8c8c8;
+		text-align: left;
+	/*padding-left: 25px;
+	padding-top: 12px;*/
+	vertical-align: middle;
+}
+.logo {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+footer {
+	margin: 50px;
 	width: 966px;
 	height: 40px;
 	background-color: white;
@@ -62,50 +107,60 @@ header {
 	color: #2c2c2c;
 	font-family: OpenSans;
 	font-size: 13px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.footer_icon {
+	width: 800px;
+	float: left;
 }
 .footer_icon li {
 	display: inline-block;
 	text-align: center;
-	width: 120px;
+	vertical-align: middle;
+	padding-top: 12px;
+	padding-right: 70px;
+	padding-left: 25px;
+	float: left;
+}
+.copyrights {
+	width: 160px;
+	float: left;
+	vertical-align: middle;
+	color: #2c2c2c;
+	font-family: OpenSans;
+	font-size: 13px;
 	padding-top: 12px;
 }
-.aside li {
-	display: inline-block;
-	float: left;
-	width: 240px;
-	height: 40px;
-	border: 1px solid #c8c8c8;
-	text-align: left;
-	/*padding-left: 25px;
-	padding-top: 12px;*/
-	vertical-align: middle;
+.footer_icon li a {
+	color: #2c2c2c;
+	font-family: OpenSans;
+	font-size: 13px;
+	text-decoration: none;
 }
-.aside li a {
-	color: white;
-  font-family: OpenSans;
-  font-size: 13px;
-  text-decoration: none;
+.footer_icon li a:hover {
+	text-decoration: underline;
+	color: black;
 }
-.section {
-	margin: 40px;
+.clearfix:after {
+	display: block;
+	content: '';
+	clear: both;
+	float: none;
 }
-.text {
-	text-align: left;
-	width: 620px;
-	margin-left: 330px;
-	margin-top: 30px;
+main:after {
+	display: block;
+	content: '';
+	clear: both;
+	float: none;
+	height: 0;
 }
-.bisycle {
-	width: 500px;
-	height: 307px;
-	background: url(../img/bicycle.png) no-repeat;
-	border: 1px solid #c8c8c8;
-}
-/*.bicycle img {
-	padding: 50px;
-	width: 555px;
-}*/
-.logo {
-	display: inline-block;
-	margin-bottom: 40px;
+footer:after {
+	display: block;
+	content: '';
+	clear: both;
+	float: none;
+	height: 0;
 }
