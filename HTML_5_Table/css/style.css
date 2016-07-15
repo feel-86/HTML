@@ -1,0 +1,32 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	td,
+	tr {
+		border: 5px solid #000;
+		width: 70px;
+		height: 70px;
+	}
+
+	table {
+		border-collapse: collapse;
+		border: 5px solid white;
+	}
+	td.yellow {
+		background: yellow;
+	}
+	td.red {
+		background: red;
+	}
+	td.black {
+		background: black;
+	}
+	td.blue {
+		background: blue;
+	}
+	.thin {
+		height: 35px;
+		width: 70px;
+	}
