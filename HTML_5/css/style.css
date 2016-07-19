@@ -67,3 +67,48 @@ section {
   font-family: Tahoma;
   font-size: 24px;
 }
+form div input {
+	border: none;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 140px;
+	padding-left: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  padding-right: 80px;
+  color: #ccc;
+  background-image: linear-gradient(to top, #111 0%, #0e0d0d 100%);
+  box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.1);
+}
+form div label {
+  color: #ccc;
+}
+form div {
+  color: #ccc;
+}
+/*input#submit {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.09) 20%, rgba(255, 255, 255, 0.09) 100%);
+  border: 1px solid #e68e16;
+}*/
+button.fb {
+	border: none;
+	border-radius: 3px;
+	background-color: #354e8e;
+	color: white;
+	padding-left: 90px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 36px;
+	margin-left: 140px;
+	margin-top: 25px;
+}
+div.buttom_text {
+	text-align: center;
+	margin-top: 25px;
+}
+div.line {
+	display: block;
+	margin-left: 140px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
