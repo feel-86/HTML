@@ -8,22 +8,32 @@ ul {
 a {
 	text-decoration: none;
 }
+@font-face {
+    font-family: 'helveticaneuecyrthin';
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
 	width: 1215px;
 	/*max-width: 1215px;
 	min-width: 1215px;*/
 	height: 1071px;
 	background: url(../img/Background.png) no-repeat 50% 0;
+	font-family: "helveticaneuecyrthin";
 }
 /*HEADER*/
 header {
 	width: 1215px;
 	height: 35px;
 	color: #fefefe;
-	font-family: Tahoma;
 	font-size: 14px;
 	background-color: #074b88;
-
+  font-family: "helveticaneuecyrthin";
 }
 nav {
 	float: right;
@@ -42,18 +52,36 @@ ul.menu > li > a {
 	vertical-align: middle;
 	text-align: center; 
 }
-nav > ul.menu > li.li-block a {
-	display: sblock;
+nav ul.menu li.li-flag {
+	margin-top: 2px;
+	color: white; 
+	vertical-align: middle;
+	border-left: 1px solid #56a2dc;
+}
+nav ul.menu li.li-flag a {
+	color: white; 
+	vertical-align: top;
+}
+nav ul.menu li a span.underline {
+	text-decoration: underline;
+}
+nav ul.menu li a.white {
+	color: white;
+}
+/*nav > ul.menu > li.li-block a {
+	display: inline-block;
 }
 nav > ul.menu > li.li-block > a {
 	color: white;
 	vertical-align: middle;
-}
+}*/
 /*SECTION*/
 section {
 	width: 1215px;
+
 }
 .form-box {
+	font-family: "helveticaneuecyrthin";
 	width: 560px;
 	height: 613px;
 	margin: 0 auto;
@@ -61,15 +89,16 @@ section {
 	background: rgba(0, 0, 0, 0.6);
 }
 .top-line {
+	font-family: "helveticaneuecyrthin";
 	text-align: center;
 	padding-top: 22px;
 	padding-bottom: 22px;
 	border-bottom: 2px solid #b3c0ac;
 	color: white;
-	font-family: Tahoma;
 	font-size: 24px;
 }
 form div input {
+	font-family: "helveticaneuecyrthin";
 	border: none;
 	margin-top: 8px;
 	margin-bottom: 8px;
@@ -111,11 +140,13 @@ button.fb {
 	margin-top: 25px;
 }
 div.buttom_text {
+	font-family: "helveticaneuecyrthin";
 	text-align: center;
 	margin-top: 15px;
 	font-size: 11px;
 }
 div.line {
+	font-family: "helveticaneuecyrthin";
 	display: block;
 	margin-left: 140px;
 	margin-top: 20px;
