@@ -4,15 +4,18 @@
 	}
 
 	td,
-	tr {
-		border: 5px solid #000;
+	tr {		
 		width: 70px;
 		height: 70px;
 	}
 
+	td{
+		border: 5px solid #000;
+	}
+
 	table {
 		border-collapse: collapse;
-		border: 5px solid white;
+		/*border: 5px solid white;*/
 	}
 	td.yellow {
 		background: yellow;
@@ -29,4 +32,24 @@
 	.thin {
 		height: 35px;
 		width: 70px;
+	}
+
+	table tr:first-child td{
+		border-top: none;
+	}
+
+		table tr:last-child td{
+		border-bottom: none;
+	}
+
+	table tr td:first-child{
+		border-left: none;
+	}
+
+	table tr td:last-child{
+		border-right: none;
+	}
+
+	table tr:nth-last-child(n-1) td{
+		border-bottom: none;
 	}

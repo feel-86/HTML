@@ -24,16 +24,18 @@ body {
 	min-width: 1215px;*/
 	height: 1071px;
 	background: url(../img/Background.png) no-repeat 50% 0;
-	font-family: "helveticaneuecyrthin";
+	font-family: "helveticaneuecyrthin", sans-serif;
 }
-/*HEADER*/
+
+                          /*HEADER*/
+
 header {
 	width: 1215px;
 	height: 35px;
 	color: #fefefe;
 	font-size: 14px;
 	background-color: #074b88;
-  font-family: "helveticaneuecyrthin";
+  font-family: "helveticaneuecyrthin", sans-serif;
 }
 nav {
 	float: right;
@@ -44,13 +46,18 @@ ul.menu > li {
 	/*position: relative;*/
 	text-align: center;
 	padding-right: 20px;
-	margin-top: 6px;
+	margin-top: 7px;
 }
 ul.menu > li > a {
-	padding: 5px 12px 5px 12px;
+	padding: 10px 12px 11px 12px;
 	color: #60b5ed;
 	vertical-align: middle;
 	text-align: center; 
+}
+ul.menu > li > a:hover {
+	background-color: #4eabda;
+	color: white;
+	font-weight: bold;
 }
 nav ul.menu li.li-flag {
 	margin-top: 2px;
@@ -75,13 +82,15 @@ nav > ul.menu > li.li-block > a {
 	color: white;
 	vertical-align: middle;
 }*/
-/*SECTION*/
+
+                        /*SECTION*/
+
 section {
 	width: 1215px;
 
 }
 .form-box {
-	font-family: "helveticaneuecyrthin";
+	font-family: "helveticaneuecyrthin", sans-serif;
 	width: 560px;
 	height: 613px;
 	margin: 0 auto;
@@ -89,7 +98,7 @@ section {
 	background: rgba(0, 0, 0, 0.6);
 }
 .top-line {
-	font-family: "helveticaneuecyrthin";
+	font-family: "helveticaneuecyrthin", sans-serif;
 	text-align: center;
 	padding-top: 22px;
 	padding-bottom: 22px;
@@ -98,7 +107,8 @@ section {
 	font-size: 24px;
 }
 form div input {
-	font-family: "helveticaneuecyrthin";
+	/*width: 180px;*/
+	font-family: "helveticaneuecyrthin", sans-serif;
 	border: none;
 	margin-top: 8px;
 	margin-bottom: 8px;
@@ -106,7 +116,7 @@ form div input {
 	padding-left: 18px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-right: 80px;
+	padding-right: 130px;
 	color: #ccc;
 	font-size: 14px;
 	background-image: linear-gradient(to top, #111 0%, #0e0d0d 100%);
@@ -140,13 +150,13 @@ button.fb {
 	margin-top: 25px;
 }
 div.buttom_text {
-	font-family: "helveticaneuecyrthin";
+	font-family: "helveticaneuecyrthin", sans-serif;
 	text-align: center;
 	margin-top: 15px;
 	font-size: 11px;
 }
 div.line {
-	font-family: "helveticaneuecyrthin";
+	font-family: "helveticaneuecyrthin", sans-serif;
 	display: block;
 	margin-left: 140px;
 	margin-top: 20px;
@@ -160,8 +170,11 @@ form div input.fb {
   margin-top: 35px;
 }
 form div input.submit {
-	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.09) 20%, rgba(255, 255, 255, 0.09) 100%);
-  border: 1px solid #e68e16;
-  padding: 11px 13px;
+/*background-image: linear-gradient(to top, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.09) 20%, rgba(255, 255, 255, 0.09) 100%);*/
+  background: #4ca9d9;
+  padding: 10px 15px;
   margin-left: 200px;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
 }
