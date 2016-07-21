@@ -2,6 +2,17 @@
 		margin: 0;
 		padding: 0;
 	}
+	body {
+		width: 1350px;
+		position: relative;
+	}
+
+	.wraper {
+		margin: 0 auto;
+		width: 50%;
+		height: 600px;
+		background: #e3e3e3;
+	}
 
 	td,
 	tr {		
@@ -15,20 +26,29 @@
 
 	table {
 		border-collapse: collapse;
-		/*border: 5px solid white;*/
+		position: absolute;
+		top: 25%;
+		left: 25%;
+		height: 50%;
+		width: 50%;
 	}
+
 	td.yellow {
 		background: yellow;
 	}
+
 	td.red {
 		background: red;
 	}
+
 	td.black {
 		background: black;
 	}
+
 	td.blue {
 		background: blue;
 	}
+
 	.thin {
 		height: 35px;
 		width: 70px;
@@ -38,7 +58,7 @@
 		border-top: none;
 	}
 
-		table tr:last-child td{
+	table tr:last-child td{
 		border-bottom: none;
 	}
 
