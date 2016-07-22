@@ -28,7 +28,7 @@ body {
 	font-family: "helveticaneuecyrthin", sans-serif;
 }
 
-                        /*HEADER*/
+/*HEADER*/
 
 header {	
 	height: 35px;
@@ -103,7 +103,7 @@ nav ul.menu li a.underline:hover {
 }
 
 nav ul.menu li.entrar {
-  background-color: #4eabda;
+	background-color: #4eabda;
 	color: white;
 	padding-top: 9px;
 	padding-bottom: 9px;
@@ -117,10 +117,10 @@ nav ul.menu li a.white {
 	color: white;
 }
 
-                          /*SECTION*/
+/*SECTION*/
 
 section{
-  position: relative;
+	position: relative;
 }
 
 .form-box{
@@ -207,44 +207,44 @@ div.buttom_text {
 	font-size: 11px;
 }
 
-div.line {
+/*div.line {
 	font-family: "helveticaneuecyrthin", sans-serif;
 	display: block;
 	margin-left: 140px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-}
+	}*/
 
-form div input.fb {
-	background: url(../img/login_fb.png);
-	width: 276px;
-	height: 35px;
-	color: inherit;
-	margin-top: 35px;
-}
+	form div input.fb {
+		background: url(../img/login_fb.png);
+		width: 276px;
+		height: 35px;
+		color: inherit;
+		margin-top: 35px;
+	}
 
-.check{
-	cursor: pointer;
-	outline: none;
-	box-shadow: none;
-}
+	.check{
+		cursor: pointer;
+		outline: none;
+		box-shadow: none;
+	}
 
-#checkbox{
-	box-shadow: none;
-}
+	#checkbox{
+		box-shadow: none;
+	}
 
-form div input.submit {
-	background: linear-gradient(to bottom, rgba(103,198,230,1) 0%, rgba(60,143,206,1) 49%, rgba(60,143,206,1) 49%, rgba(60,143,206,1) 50%, rgba(46,121,196,1) 100%);
-	border: 1px solid #489cd5;
-	box-shadow: 0px 0px 10px 2px #42403a;
-	padding: 10px 15px;
-	margin-left: 200px;
-	color: white;
-	font-weight: bold;
-	border-radius: 3px;
-}
+	form div input.submit {
+		background: linear-gradient(to bottom, rgba(103,198,230,1) 0%, rgba(60,143,206,1) 49%, rgba(60,143,206,1) 49%, rgba(60,143,206,1) 50%, rgba(46,121,196,1) 100%);
+		border: 1px solid #489cd5;
+		box-shadow: 0px 0px 10px 2px #42403a;
+		padding: 10px 15px;
+		margin-left: 200px;
+		color: white;
+		font-weight: bold;
+		border-radius: 3px;
+	}
 
-.form-line-block div{
+/*.form-line-block div{
 	float: left;
 	text-align: center;
 	padding-left: 5px;
@@ -257,4 +257,49 @@ form div input.submit {
 	background-position: center;
 	height: 20px;
 	width: 26%;
-}
+	}*/
+
+	.line {
+		display: inline-block;
+		width: 110px;
+		margin-left: 140px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		position: relative;
+	}
+	p.second {
+		margin-left: 50px;
+	}
+
+	.ou-block {
+		position: relative;
+	}
+
+	span.OU {
+		position: absolute;
+		top: 5px;
+		vertical-align: middle;
+		padding: 0px 10px 10px 10px;
+	}
+
+	.line span {
+		position: relative;
+		z-index: 1;
+		padding: 0px 25px;
+		color: #999999;
+	}
+	.line:after {
+		content: '';
+		display: block;
+		width: 100%;
+		height: 1px;
+		background-color: black;
+		box-shadow: 0px -1px #666666;
+		position: absolute;
+		top: 50%;
+		margin-top: -1px;
+		z-index: 0;
+	}
