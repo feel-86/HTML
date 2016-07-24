@@ -9,7 +9,30 @@ a {
 	text-decoration: none;
 }
 
+    /*HEADER*/
+
 .baner {
 	background: url(../img/baner.png) no-repeat center center;
 	height: 240px;
 }
+
+.top-box {
+	height: 27px;
+	display: inline-block;
+}
+
+.phones {
+	width: 35%;
+}
+
+.login-form {
+	width: 50%;
+}
+
+.home-menu {
+	width: 15%
+}
+
+    /*SECTION*/
+
+    /*FOOTER*/
