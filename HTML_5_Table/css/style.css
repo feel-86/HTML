@@ -2,22 +2,42 @@
 		margin: 0;
 		padding: 0;
 	}
+
 	body {
-		position: relative;
+		/*position: relative;*/
 	}
+
 	.wraper {
-		position: relative;
+  }
+
+	.wraper:before {
+	  content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+		/*display: table-cell;
+		vertical-align: middle;*/
+		/*position: relative;*/
+	}
+
+	.inner {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
 	}
 
 	table {
-		/*margin: 0 auto;*/
-		position: absolute;
+		display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    /*margin: 0 auto;*/
+		/*position: absolute;
 		left: 25%;
 		top: 25%;
 		bottom: 25%;
 		vertical-align: middle;
 		width: 50%;
-		height: 50%;
+		height: 50%;*/
   }
 
 	td,
@@ -32,11 +52,11 @@
 
 	table {
 		border-collapse: collapse;
-		position: absolute;
+		/*position: absolute;
 		top: 25%;
 		left: 25%;
 		height: 50%;
-		width: 50%;
+		width: 50%;*/
 	}
 
 	td.yellow {
