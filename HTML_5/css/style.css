@@ -22,9 +22,9 @@ a {
 
 }
 
-body {	
-	height: 1071px;
-	background: url(../img/bg.jpg) no-repeat 50% 0;
+body {		
+	background: url(../img/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
 	font-family: "helveticaneuecyrthin", sans-serif;
 }
 
@@ -36,6 +36,14 @@ header {
 	font-size: 14px;
 	background-color: #074b88;
 	font-family: "helveticaneuecyrthin", sans-serif;
+}
+html,body{
+	height: 100%;
+}
+.body-section{
+	position: relative;
+	display: block;
+	height: 100%;
 }
 
 nav {
@@ -117,20 +125,18 @@ nav ul.menu li a.white {
 	color: white;
 }
 
+
 /*SECTION*/
 
-section{
-	position: relative;
-}
 
 .form-box{
 	font-family: "helveticaneuecyrthin", sans-serif;
 	width: 560px;
 	height: 613px;
 	position: absolute;
-	left: 395px;
-	margin-top: 212px;
-	margin-bottom: 212px;
+	left: 50%;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);	
 	background: rgba(0, 0, 0, 0.6);
 }
 
@@ -207,13 +213,6 @@ div.buttom_text {
 	font-size: 11px;
 }
 
-/*div.line {
-	font-family: "helveticaneuecyrthin", sans-serif;
-	display: block;
-	margin-left: 140px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	}*/
 
 	form div input.fb {
 		background: url(../img/login_fb.png);
