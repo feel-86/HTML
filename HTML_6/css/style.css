@@ -105,6 +105,46 @@ width: 77px;
 height: 21px;
 background-color: white;
 border: 1px solid #bdc4c7;
+position: relative;
+overflow: hidden;
+vertical-align: middle;
+}
+
+.home-menu ul {
+	position: relative;
+	overflow: hidden;
+	padding-left: 10px;
+	padding-top: 2px;
+}
+
+.home-menu li {
+	float: left;
+	list-style: none;
+	margin-right: 8px;
+}
+
+.home-menu a {
+	display: block;
+	background: url(../img/sprite-map-site.png) 0 0 no-repeat;
+}
+
+.home-menu .home {
+height: 11px;
+width: 11px;
+background-position: 0 0;
+
+}
+
+.home-menu .map-site {
+height: 10px;
+width: 14px;
+background-position: -12px 0;
+}
+
+.home-menu .letter {
+height: 9px;
+width: 12px;
+background-position: -28px 0;
 }
 
     /*SECTION*/
