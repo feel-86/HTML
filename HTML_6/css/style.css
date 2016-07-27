@@ -10,7 +10,14 @@ a {
 }
 
 body {
+  background-color: #e3e3e3;
+}
 
+.main-container {
+	width: 1000px;
+	display: block;
+	margin: 0 auto;
+	background-color: white;
 }
 
 .clearfix:after {
@@ -20,7 +27,12 @@ body {
 	float: none;
 }
 
-    /*HEADER*/
+                  /*HEADER*/
+
+
+header {
+	margin: o auto;
+}
 
 .baner {
 	background: url(../img/baner.jpg) no-repeat center center;
@@ -30,9 +42,8 @@ body {
 .top-box {
 	height: 27px;
 	width: 100%;
-	display: block;
-	margin-left: 235px;
-	margin-right: auto;
+	display: inline-block;
+	margin: 0 auto;
 	margin-top: 17px;
 	margin-bottom: 10px;
 }
@@ -260,6 +271,51 @@ margin-right: 15px;
 	margin-left: 11px;
 }
 
-    /*SECTION*/
 
-    /*FOOTER*/
+             /*SECTION*/
+
+
+section {
+	/*position: relative;*/
+}
+
+.find {
+	display: inline-block;
+	margin-top: 12px;
+	margin-left: 220px;
+}
+
+.find div {
+	float: left;
+}
+
+.findtires {
+	margin-left: 5px;
+}
+
+.content {
+	position: relative;
+}
+
+.aside-left {
+	float: left;
+}
+
+.catalog-prod {
+width: 183px;
+height: 27px;
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 13px;
+background-color: white;
+border: 1px solid #79878d;
+border-radius: 14px;
+box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+}
+
+
+
+              /*FOOTER*/
+
+
+
