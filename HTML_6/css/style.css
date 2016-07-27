@@ -46,10 +46,10 @@ header {
 	margin: 0 auto;
 	margin-top: 17px;
 	margin-bottom: 10px;
+	margin-left: 52px;
 }
 
 .phones {
-	/*width: 35%;*/
 	display: inline;
 	color: #5e696d;
   font-family: Arial;
@@ -66,7 +66,6 @@ header {
 }
 
 .login-form {
-	/*width: 50%;*/
 display: inline-block;
 width: 495px;
 height: 26px;
@@ -79,6 +78,8 @@ margin-left: 17px;
 
 form img {
 	padding-left: 8px;
+	margin-bottom: -5px;
+  margin-top: 4px;
 }
 
 .log {
@@ -99,8 +100,6 @@ border-style: none;
 border-width: 0;
 background-color: transparent;
 cursor: pointer;
-/*font-weight: 400;
-line-height: 25px;*/
 }
 
 .enter:hover {
@@ -113,8 +112,6 @@ font-family: "Lucida Sans Unicode";
 font-size: 11px;
 border-left: 1px solid white;
 padding-left: 5px;
-/*font-weight: 400;
-line-height: 25px;*/
 }
 
 .reg:hover {
@@ -127,8 +124,6 @@ font-family: "Lucida Sans Unicode";
 font-size: 12px;
 padding-right: 10px;
 padding-left: 3px;
-/*font-weight: 400;
-line-height: 28px;*/
 text-decoration: underline;
 }
 
@@ -137,7 +132,6 @@ text-decoration: underline;
 }
 
 .home-menu {
-	/*width: 15%*/
 display: inline-block;
 width: 77px;
 height: 21px;
@@ -247,7 +241,6 @@ background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%)
 color: #929b9f;
 font-family: Arial;
 font-size: 11px;
-/*font-weight: 400;*/
 margin-left: 55px;
 display: inline-block;
 vertical-align: middle;
@@ -280,9 +273,10 @@ section {
 }
 
 .find {
-	display: inline-block;
+	display: block;
 	margin-top: 12px;
-	margin-left: 220px;
+	margin-left: 47px;
+	margin-right: auto;
 }
 
 .find div {
@@ -290,7 +284,7 @@ section {
 }
 
 .findtires {
-	margin-left: 5px;
+	margin-left: 7px;
 }
 
 .content {
@@ -299,6 +293,7 @@ section {
 
 .aside-left {
 	float: left;
+	margin-left: 45px;
 }
 
 .catalog-prod {
@@ -311,6 +306,89 @@ background-color: white;
 border: 1px solid #79878d;
 border-radius: 14px;
 box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+}
+
+.catalog-prod img {
+margin-top: 2px;
+margin-left: 2px;
+}
+
+.catalog-prod span {
+	display: inline-block;
+}
+
+.shiny-disci-bolty-left {
+width: 150px;
+height: 26px;
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+background-color: white;
+border: 1px solid #79878d;
+border-radius: 14px;
+margin-top: 13px;
+}
+
+.shiny-disci-bolty-left img {
+margin-top: 1px;
+margin-left: 3px;
+}
+
+.aside-left ul li a {
+color: #465961;
+font-family: "Lucida Sans Unicode";
+font-size: 13px;
+margin-left: -5px;
+}
+
+.aside-left ul li {
+list-style-type: circle;
+list-style-position: inside;
+margin-bottom: 5px;
+margin-left: 35px;
+margin-top: 5px;
+}
+
+.aside-left ul li:hover {
+color: #0c3256;
+font-family: Arial;
+font-size: 14px;
+font-weight: 700;
+font-style: italic;
+text-decoration: underline;
+}
+
+.main {
+position: absolute;
+left: 238px;
+width: 526px;
+height: 627px; /*нужно потом убрать*/
+background-color: white;
+background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
+border-radius: 3px;
+/*margin-left: 238px;*/
+}
+
+.aside-right {
+	float: right;
+	margin-right: 45px;
+}
+
+.catalog-brand {
+width: 183px;
+height: 27px;
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 13px;
+background-color: white;
+border: 1px solid #79878d;
+border-radius: 14px;
+box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+}
+
+.catalog-brand img {
+margin-top: 2px;
+margin-left: 2px;
 }
 
 
