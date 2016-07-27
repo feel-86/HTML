@@ -391,7 +391,22 @@ margin-top: 2px;
 margin-left: 2px;
 }
 
+.shiny-disci-right {
+width: 150px;
+height: 26px;
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+background-color: white;
+border: 1px solid #79878d;
+border-radius: 14px;
+margin-top: 13px;
+}
 
+.shiny-disci-right img {
+margin-top: 1px;
+margin-left: 3px;
+}
 
               /*FOOTER*/
 
