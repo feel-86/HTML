@@ -306,15 +306,14 @@ background-color: white;
 border: 1px solid #79878d;
 border-radius: 14px;
 box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
-}
-
-.catalog-prod img {
-margin-top: 2px;
-margin-left: 2px;
+background: url(../img/brands.png) 2px center no-repeat;
+vertical-align: middle;
 }
 
 .catalog-prod span {
 	display: inline-block;
+	padding-top: 4px;
+	padding-left: 28px;
 }
 
 .shiny-disci-bolty-left {
@@ -323,16 +322,22 @@ height: 26px;
 color: #114165;
 font-family: "Lucida Sans Unicode";
 font-size: 14px;
-background-color: white;
+background: url(../img/circle.png) 3px 1px no-repeat;
 border: 1px solid #79878d;
 border-radius: 14px;
 margin-top: 13px;
 }
 
-.shiny-disci-bolty-left img {
+.shiny-disci-bolty-left span {
+	display: inline-block;
+	padding-top: 4px;
+	padding-left: 28px;
+}
+
+/*.shiny-disci-bolty-left img {
 margin-top: 1px;
 margin-left: 3px;
-}
+}*/
 
 .aside-left ul li a {
 color: #465961;
@@ -384,11 +389,14 @@ background-color: white;
 border: 1px solid #79878d;
 border-radius: 14px;
 box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+background: url(../img/brands.png) 2px center no-repeat;
+vertical-align: middle;
 }
 
-.catalog-brand img {
-margin-top: 2px;
-margin-left: 2px;
+.catalog-brand span {
+  display: inline-block;
+	padding-top: 4px;
+	padding-left: 28px;
 }
 
 .shiny-disci-right {
@@ -397,16 +405,45 @@ height: 26px;
 color: #114165;
 font-family: "Lucida Sans Unicode";
 font-size: 14px;
-background-color: white;
+background: url(../img/circle.png) 3px 1px no-repeat;
 border: 1px solid #79878d;
 border-radius: 14px;
 margin-top: 13px;
+margin-left: 15px;
+margin-bottom: 11px;
 }
 
-.shiny-disci-right img {
-margin-top: 1px;
-margin-left: 3px;
+.shiny-disci-right span {
+  display: inline-block;
+	padding-top: 4px;
+	padding-left: 28px;
 }
+
+/*.aside-right .shiny-disci-right>input {
+	margin-left: 25px;
+}*/
+
+#diski,
+#shiny {
+	margin-left: 24px;
+	margin-bottom: 15px;
+}
+
+.choise {
+width: 82px;
+height: 26px;
+background-color: black;
+background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+border: 1px solid #a7abae;
+border-radius: 10px;
+color: #e5e9ea;
+font-family: Arial;
+font-size: 11px;
+font-weight: 400;
+margin-top: 6px;
+margin-left: 25px;
+}
+
 
               /*FOOTER*/
 
