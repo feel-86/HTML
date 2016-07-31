@@ -1,20 +1,10 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-ul {
-	list-style: none;
-}
-a {
-	text-decoration: none;
-}
-
 body {
   background-color: #e3e3e3;
 }
 
 .main-container {
-	width: 1000px;
+  width: 1000px;
+  height: 1310px;
 	display: block;
 	margin: 0 auto;
 	background-color: white;
@@ -330,7 +320,7 @@ margin-top: 13px;
 
 .shiny-disci-bolty-left span {
 	display: inline-block;
-	padding-top: 4px;
+	padding-top: 7px;
 	padding-left: 28px;
 }
 
@@ -363,16 +353,15 @@ font-style: italic;
 text-decoration: underline;
 }
 
-.main {
-position: absolute;
-left: 238px;
+ .main {
+float: left;
 width: 526px;
 height: 627px; /*нужно потом убрать*/
 background-color: white;
 background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
 border-radius: 3px;
-/*margin-left: 238px;*/
-}
+margin-left: 8px;
+} 
 
 .aside-right {
 	float: right;
@@ -419,15 +408,20 @@ margin-bottom: 11px;
 	padding-left: 28px;
 }
 
-/*.aside-right .shiny-disci-right>input {
+.aside-right input[type=checkbox]{
 	margin-left: 25px;
-}*/
+}
+/* 
+.aside-right .shiny-disci-right>input {
+	display: inline-block;
+	margin-left: 25px;
+} */
 
-#diski,
+/*#diski,
 #shiny {
 	margin-left: 24px;
 	margin-bottom: 15px;
-}
+}*/
 
 .choise {
 width: 82px;
@@ -442,6 +436,10 @@ font-size: 11px;
 font-weight: 400;
 margin-top: 6px;
 margin-left: 25px;
+}
+
+.trade-mark-item {
+
 }
 
 
