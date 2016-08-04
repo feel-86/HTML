@@ -274,6 +274,8 @@ header div, .number p {
 	}
 
 	/*-------------FIND--------------*/
+	
+
 	.find {
 		display: block;
 		margin-top: 12px;
@@ -294,7 +296,6 @@ header div, .number p {
 		letter-spacing: -0.7px;
 		font-family: "Lucida Sans Unicode";
 		width: 180px;
-		margin-top: 20px;
 	}
 
 	.topic {
@@ -408,7 +409,7 @@ header div, .number p {
 	main {
 		letter-spacing: 0.7px;
 		box-sizing: border-box;
-		margin: 17px 12px 42px;
+		margin: 0px 12px 42px;
 		padding: 8px 8px 10px;
 		border-radius: 5px;
 		float: left;
@@ -505,7 +506,7 @@ header div, .number p {
 	footer a:hover {
 		color: #52abcb;
 	}
-	
+
 	.copyright {
 		font-size: 10px;
 		color: #7f4740;
